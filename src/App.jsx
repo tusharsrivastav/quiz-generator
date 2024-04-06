@@ -26,6 +26,7 @@ function App() {
     if (componentToRender == "config") {
       setSelectedTopic("");
       setSelectedDifficulty("");
+      setCurrentScore(0);
     }
   };
 
